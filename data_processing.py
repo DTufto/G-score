@@ -1,6 +1,5 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
-from datasets import load_dataset
 
 
 def preprocess_image(image):
@@ -9,9 +8,7 @@ def preprocess_image(image):
     return np.array(image).flatten()  # Flatten the image to a 1D array
 
 
-def get_train_test_split(test_size=0.2, random_state=42):
-    dataset = load_dataset("microsoft/cats_vs_dogs")
-
+def get_train_test_split(dataset, test_size=0.2, random_state=42):
     X = np.array([preprocess_image(item['image']) for item in dataset['train']])
     y = np.array([item['labels'] for item in dataset['train']])
 
