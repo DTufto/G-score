@@ -11,7 +11,7 @@ print("Loading data...")
 X_train, X_test, y_train, y_test = get_train_test_split()
 
 models = {
-    # "Decision Tree": DecisionTreeClassifier(),
+    "Decision Tree": DecisionTreeClassifier(),
     "Logistic Regression": LogisticRegression(),
     "Naive Bayes": CategoricalNB(),
     "Support Vector Machine": SVC()

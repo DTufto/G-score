@@ -1,6 +1,0 @@
-Model: Naive Bayes
-Accuracy: 0.58
-Training time: 240.87 seconds
-Prediction time: 1.26 seconds
-Best parameters: {'alpha': 0.5, 'fit_prior': False}
-----------------------------------------

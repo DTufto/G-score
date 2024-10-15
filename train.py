@@ -12,9 +12,9 @@ X_train, X_test, y_train, y_test = get_train_test_split()
 
 models = {
     "Decision Tree": DecisionTreeClassifier(criterion='entropy', max_depth=10, min_samples_split=2),
-    # "Logistic Regression": LogisticRegression(),
-    # "Naive Bayes": CategoricalNB(),
-    # "Support Vector Machine": SVC(probability=True)
+    "Logistic Regression": LogisticRegression(),
+    "Naive Bayes": CategoricalNB(),
+    "Support Vector Machine": SVC()
 }
 
 for model_name, clf in models.items():
