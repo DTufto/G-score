@@ -1,0 +1,10 @@
+Trial,Model,Training_Time_Seconds,Training_Energy_Joules,Inference_Time_Seconds,Inference_Energy_Joules,F1_Score
+1,Decision Tree,260.61,4085.22,0.04,0.69,0.5544
+1,Naive Bayes,8.26,102.34,1.25,18.05,0.576
+2,Decision Tree,262.69,4258.2,0.04,1.05,0.5576
+2,Naive Bayes,8.19,103.03,1.25,17.91,0.576
+3,Decision Tree,261.91,4219.94,0.05,0.74,0.5599
+3,Naive Bayes,8.26,105.7,1.26,18.65,0.576
+1,Logistic Regression,24.36,772.6,0.11,3.16,0.6081
+2,Logistic Regression,23.97,728.63,0.11,2.86,0.6081
+3,Logistic Regression,24.25,678.65,0.11,2.99,0.6081
