@@ -1,10 +1,9 @@
 import time
 
-from sklearn.model_selection import GridSearchCV
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import CategoricalNB
-from sklearn.svm import SVC, LinearSVC
+from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from data_processing import get_train_test_split
 
