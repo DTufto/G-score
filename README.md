@@ -14,7 +14,7 @@ sudo chmod -R a+r /sys/class/powercap/intel-rapl
 ```
 2. Within your poetry virtual environment, run the models with
 ```shell
-python experiment.py
+python ./training/experiment.py
 ```
 The experiment will output a CSV which you can evaluate later.
 
