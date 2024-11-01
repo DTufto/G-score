@@ -15,7 +15,8 @@ huggingface = "0.0.1"
 datasets = "3.0.1"
 pillow = "10.4.0"
 pymongo = "4.10.1"
-
+matplotlib = "3.9.2"
+jupyter = "1.1.1"
 
 [build-system]
 requires = ["poetry-core"]
