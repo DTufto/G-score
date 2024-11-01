@@ -8,14 +8,13 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pyrapl = "^0.2.3.1"
-pandas = "^2.2.3"
-pymongo = "^4.9.1"
-pyjoules = {extras = ["nvidia"], version = "^0.5.1"}
-scikit-learn = "^1.5.2"
-huggingface = "^0.0.1"
-datasets = "^3.0.1"
-pillow = "^10.4.0"
+pyrapl = "0.2.3.1"
+pandas = "2.2.3"
+scikit-learn = "1.5.2"
+huggingface = "0.0.1"
+datasets = "3.0.1"
+pillow = "10.4.0"
+pymongo = "4.10.1"
 
 
 [build-system]
